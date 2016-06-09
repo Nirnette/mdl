@@ -1,0 +1,23 @@
+.separator {
+    position: relative;
+    margin: 10px;
+}
+.separator  > span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    content: "";
+    border-bottom: 2px solid #EEE;
+}
+
+.header {
+    background-color: #EEE;
+    margin: 0px;
+    max-width: 100%;
+    padding-bottom: 0px;
+}
+
+.mainContent {
+    background-color: #EFEFEF;
+}
